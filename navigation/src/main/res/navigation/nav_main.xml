@@ -2,12 +2,18 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_main"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/splashScreenFragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="org.nathit.cryptocurrency.home.HomeFragment">
+        android:id="@+id/splashScreenFragment"
+        android:name="org.nathit.cryptocurrency.splashscreen.SplashScreenFragment">
+
+        <action
+            android:id="@+id/action_splashScreenFragment_to_nav_home"
+            app:destination="@+id/nav_home" />
 
     </fragment>
+
+    <include app:graph="@navigation/nav_home" />
 
 </navigation>

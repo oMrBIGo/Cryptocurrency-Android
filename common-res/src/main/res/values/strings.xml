@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_key" translatable="false">"AIzaSyAn9RH-aqbA7NsZtvPsX74Y8RgVYOZ3x54"</string>
+
+    <string name="language_select">Select Language</string>
+
+    <string name="General.cancel">Cancel</string>
+    <string name="General.done">Done</string>
+    <string name="General.ok">OK</string>
+    <string name="General.close">Close</string>
+    <string name="General.yes">Yes</string>
+    <string name="General.no">No</string>
+
+    <string name="Error.Default.message">Please try again later</string>
+    <string name="Error.Default.title">Sorry, something went wrong</string>
+    <string name="Error.Network.title">Network Error !!</string>
+    <string name="Error.NotFound.data">Not Found!!</string>
+
+    <string name="confirm">confirm</string>
+    <string name="back">back</string>
+    <string name="cancel">cancel</string>
+    <string name="next">next</string>
+    <string name="close">close</string>
+
+    <string name="night_mode">NIGHT MODE</string>
+    <string name="light_mode">LIGHT MODE</string>
+
+    <string name="language_english">ENGLISH</string>
+    <string name="language_thai">THAI</string>
+
+    <!--HOME-->
+    <string name="home_title">HOME</string>
+    <string name="home_header">CryptoCurrency</string>
+
+
+</resources>

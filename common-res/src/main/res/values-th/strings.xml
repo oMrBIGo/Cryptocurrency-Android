@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="language_select">เลือกภาษา</string>
+
+    <string name="General.cancel">Cancel</string>
+    <string name="General.done">Done</string>
+    <string name="General.ok">ตกลง</string>
+    <string name="General.close">Close</string>
+    <string name="General.yes">Yes</string>
+    <string name="General.no">No</string>
+
+    <string name="Error.Default.message">Please try again later</string>
+    <string name="Error.Default.title">Sorry, something went wrong</string>
+    <string name="Error.Network.title">Network Error !!</string>
+    <string name="Error.NotFound.data">Not Found!!</string>
+
+    <string name="confirm">ยืนยัน</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="next">ถัดไป</string>
+    <string name="close">ปิด</string>
+
+    <string name="night_mode">โหมดกลางคืน</string>
+    <string name="light_mode">โหมดกลางวัน</string>
+
+    <string name="language_english">อังกฤษ</string>
+    <string name="language_thai">ไทย</string>
+
+    <!--HOME-->
+    <string name="home_title">หน้าหลัก</string>
+    <string name="home_header">คริปโต</string>
+
+
+
+</resources>
