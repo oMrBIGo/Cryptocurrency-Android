@@ -2,6 +2,7 @@ package org.nathit.cryptocurrency.data.remote.di
 
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
+import org.nathit.cryptocurrency.data.remote.home.HomeService
 import org.nathit.cryptocurrency.data.utils.NetworkResponseAdapterFactory
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -16,5 +17,6 @@ fun createRemoteModule(baseApiUrl: String) = module {
             .build()
     }
 
+    single { get<Retrofit>(named("retrofit")).create(HomeService::class.java) }
 
 }

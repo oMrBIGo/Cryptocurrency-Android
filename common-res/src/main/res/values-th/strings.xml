@@ -10,10 +10,10 @@
     <string name="General.yes">Yes</string>
     <string name="General.no">No</string>
 
-    <string name="Error.Default.message">Please try again later</string>
-    <string name="Error.Default.title">Sorry, something went wrong</string>
-    <string name="Error.Network.title">Network Error !!</string>
-    <string name="Error.NotFound.data">Not Found!!</string>
+    <string name="Error.Default.message">โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="Error.Default.title">มีบางอย่างผิดปกติ!!</string>
+    <string name="Error.Network.title">ไม่ได้เชื่อมต่ออินเทอร์เน็ต!!</string>
+    <string name="Error.NotFound.data">ไม่พบข้อมูล</string>
 
     <string name="confirm">ยืนยัน</string>
     <string name="back">ย้อนกลับ</string>
@@ -30,7 +30,5 @@
     <!--HOME-->
     <string name="home_title">หน้าหลัก</string>
     <string name="home_header">คริปโต</string>
-
-
 
 </resources>

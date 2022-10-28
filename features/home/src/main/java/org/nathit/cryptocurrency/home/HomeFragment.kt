@@ -17,7 +17,7 @@ class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
     }
 
     override fun initViewModel() {
-//        viewModel.getUsersList()
+            viewModel.getCoinsList()
 //        viewModel.userListResult.observe(
 //            this
 //        ) {
