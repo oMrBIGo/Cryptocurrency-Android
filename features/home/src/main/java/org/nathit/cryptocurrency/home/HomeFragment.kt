@@ -1,7 +1,10 @@
 package org.nathit.cryptocurrency.home
 
+import androidx.recyclerview.widget.LinearLayoutManager
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.nathit.common.ui.base.BaseFragment
+import org.nathit.cryptocurrency.domain.model.CryptoList
+import org.nathit.cryptocurrency.home.adapter.CryptoListAdapter
 import org.nathit.cryptocurrency.home.databinding.FragmentHomeBinding
 
 class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
@@ -10,32 +13,28 @@ class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
     override fun getLayoutId(): Int = R.layout.fragment_home
     override fun getViewModelBindingVariable(): Int = BR.viewModel
 
-    //private var adapter: UserListAdapter? = null
+    private var adapter: CryptoListAdapter? = null
 
     override fun initView() {
         onBackPress()
     }
 
     override fun initViewModel() {
-            viewModel.getCoinsList()
-//        viewModel.userListResult.observe(
-//            this
-//        ) {
-//            setUserListAdapter(it)
-//        }
+        viewModel.getCoinsList()
+        viewModel.cryptoListResult.observe(
+            this
+        ) {
+            setCryptoListAdapter(it)
+        }
     }
 
-//    private fun setUserListAdapter(data: ArrayList<UserList>) {
-//        adapter = UserListAdapter(
-//            data,
-//            object : UserListAdapter.OnItemClickListener {
-//                override fun onItemClickListener(login: String, avatarUrl: String) {
-//                    viewModel.displayUserInfo(login, avatarUrl)
-//                }
-//            }
-//        )
-//        val lm = LinearLayoutManager(requireContext())
-//        binding.rcvUserHome.layoutManager = lm
-//        binding.rcvUserHome.adapter = adapter
-//    }
+    private fun setCryptoListAdapter(data: ArrayList<CryptoList>) {
+        adapter = CryptoListAdapter(
+            requireContext(),
+            data
+        )
+        val lm = LinearLayoutManager(requireContext())
+        binding.rcvHome.layoutManager = lm
+        binding.rcvHome.adapter = adapter
+    }
 }

@@ -3,6 +3,8 @@
 
     <string name="language_select">Select Language</string>
 
+    <string name="price_usb" translatable="false">$ %s</string>
+
     <string name="General.cancel">Cancel</string>
     <string name="General.done">Done</string>
     <string name="General.ok">OK</string>
@@ -29,7 +31,9 @@
 
     <!--HOME-->
     <string name="home_title">HOME</string>
-    <string name="home_header">CryptoCurrency</string>
+    <string name="home_header">Crypto</string>
+    <string name="home_vol">Vol(USD)</string>
+    <string name="home_last">Last Price</string>
 
 
 </resources>

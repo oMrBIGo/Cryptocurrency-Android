@@ -54,6 +54,7 @@
             android:layout_height="0dp"
             android:paddingStart="@dimen/spacing_medium"
             android:paddingEnd="@dimen/spacing_medium"
+            android:layout_marginTop="@dimen/spacing_medium"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,13 +64,32 @@
                 android:id="@+id/txv_crypto_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_medium"
                 android:text="@string/home_header"
-                android:textColor="@color/text_color"
+                android:textColor="@color/text_hint_input"
                 android:textSize="@dimen/font16"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txv_last_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_last"
+                android:textColor="@color/text_hint_input"
+                android:textSize="@dimen/font14"
+                android:layout_marginEnd="@dimen/spacing60"
+                app:layout_constraintEnd_toStartOf="@+id/txv_vol_home"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txv_vol_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_vol"
+                android:textColor="@color/text_hint_input"
+                android:textSize="@dimen/font14"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rcv_home"

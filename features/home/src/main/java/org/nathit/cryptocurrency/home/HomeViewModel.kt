@@ -14,14 +14,14 @@ class HomeViewModel(
     private val securePreferencesUseCase: SecurePreferencesUseCase
 ): BaseViewModel() {
 
-    var coinsListResult = MutableLiveData<ArrayList<CryptoList>>()
+    var cryptoListResult = MutableLiveData<ArrayList<CryptoList>>()
 
     fun getCoinsList() {
         progressDialogEvent.value = true
         viewModelScope.launch {
             when (val result = homeUseCase.getCoinsList()) {
                 is NetworkResponse.Success -> {
-                    coinsListResult.value = result.body
+                    cryptoListResult.value = result.body
                 }
                 is NetworkResponse.ApiError -> {
                     handlerError(result.body)

@@ -11,7 +11,9 @@
         <entry key="common-ui/src/main/res/layout/dialog_progress.xml" value="0.15833333333333333" />
         <entry key="common-ui/src/main/res/layout/dialog_two_button.xml" value="0.15833333333333333" />
         <entry key="common-ui/src/main/res/layout/view_bottom_menu.xml" value="0.15833333333333333" />
-        <entry key="features/home/src/main/res/layout/fragment_home.xml" value="0.38333333333333336" />
+        <entry key="features/home/src/main/res/layout/fragment_home.xml" value="0.36523929471032746" />
+        <entry key="features/home/src/main/res/layout/item_crypto_list.xml" value="0.18258412679036456" />
+        <entry key="features/home/src/main/res/layout/item_loading.xml" value="0.19253387451171877" />
         <entry key="features/splashscreen/src/main/res/layout/fragment_splashscreen.xml" value="0.38333333333333336" />
       </map>
     </option>
