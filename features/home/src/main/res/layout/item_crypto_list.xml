@@ -30,17 +30,17 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline_70_view_bottom_menu"
+            android:id="@+id/guideline_65_view_bottom_menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.70" />
+            app:layout_constraintGuide_percent="0.65" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/guideline_70_view_bottom_menu"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_65_view_bottom_menu"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView

@@ -51,7 +51,7 @@ class CryptoListAdapter(
                     binding.root.layoutParams = RecyclerView.LayoutParams(0,0)
                 }
                 binding.txvLastQtyList.text = priceCount(result[position].lastQty)
-                binding.txvLastPriceList.text = context.getString(R.string.price_usb,priceCount(result[position].lastPrice))
+                binding.txvLastPriceList.text = context.getString(R.string.price_usb,prettyCount(result[position].bidQty))
                 binding.executePendingBindings()
             }
 

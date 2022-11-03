@@ -30,7 +30,7 @@
     <!--HOME-->
     <string name="home_title">หน้าหลัก</string>
     <string name="home_header">คริปโต</string>
-    <string name="home_vol">สกุลเงิน(ดอลลาร์)</string>
+    <string name="home_vol">ดอลลาร์</string>
     <string name="home_last">ราคาปัจจุบัน</string>
 
 </resources>

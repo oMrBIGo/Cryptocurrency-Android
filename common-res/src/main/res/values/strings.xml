@@ -32,7 +32,7 @@
     <!--HOME-->
     <string name="home_title">HOME</string>
     <string name="home_header">Crypto</string>
-    <string name="home_vol">Vol(USD)</string>
+    <string name="home_vol">Vol("USD")</string>
     <string name="home_last">Last Price</string>
 
 
